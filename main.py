@@ -600,15 +600,20 @@ l = "milad is a developer"
 
 ### lambda
 
+#
+# a = [5,4,7,9,3]
+#
+# tavan_2 = map(lambda x: x ** 2, a )
+#
+# print(list(tavan_2))
 
-a = [5,4,7,9,3]
+def is_ashari(x):
+    return x  == int(x)
 
-tavan_2 = map(lambda x: x ** 2, a )
+a = [1.3,2,3.3,4,5.8,9.1]
+filter_ashari = filter(is_ashari, a)
 
-print(list(tavan_2))
-
-
-
+print(list(filter_ashari))
 
 
 
