@@ -607,15 +607,20 @@ l = "milad is a developer"
 #
 # print(list(tavan_2))
 
-def is_ashari(x):
-    return x  == int(x)
+# def is_ashari(x):
+#     return x  == int(x)
+#
+# a = [1.3,2,3.3,4,5.8,9.1]
+# filter_ashari = filter(is_ashari, a)
+#
+# print(list(filter_ashari))
 
-a = [1.3,2,3.3,4,5.8,9.1]
-filter_ashari = filter(is_ashari, a)
-
-print(list(filter_ashari))
 
 
+name = ['milad','sina','ali','jalal','farhad','mmd']
+
+short_names = filter(lambda x : len(x) <= 3 , name)
+print(list(short_names))
 
 
 
