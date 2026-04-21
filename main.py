@@ -589,13 +589,28 @@ l = "milad is a developer"
 # tavan_2_a = map(tavan_2, a)
 # print(tavan_2_a)
 
-def tavan_3 (x):
-    return x ** 3
-b = [1,5,6,9]
-tavan_3_a = map(tavan_3,b)
-print(tavan_3_a)
-for i in tavan_3_a:
-    print(i)
+# def tavan_3 (x):
+#     return x ** 3
+# b = [1,5,6,9]
+# tavan_3_a = map(tavan_3,b)
+# print(list(tavan_3_a))
+# # for i in tavan_3_a:
+# #     print(i)
+
+
+### lambda
+
+
+a = [5,4,7,9,3]
+
+tavan_2 = map(lambda x: x ** 2, a )
+
+print(list(tavan_2))
+
+
+
+
+
 
 
 
