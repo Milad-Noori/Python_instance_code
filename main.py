@@ -634,6 +634,7 @@ class newclass():
 
 milad = newclass(100)
 print(milad.param1)
+print(type(milad))
 
 
 
