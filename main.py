@@ -648,24 +648,36 @@ l = "milad is a developer"
 
 
 
+#
+# class maddrese():
+#     def __init__(self,danshamoz):
+#         self.daneshamoz = danshamoz
+#
+#
+# school = maddrese("44")
+# print(school.daneshamoz)
+#
+#
+# class book ():
+#     def __init__(self,page):
+#         self.pages = page
+#
+# newbook= book('800')
+# print(newbook.pages)
+# print(school.daneshamoz)
 
-class maddrese():
-    def __init__(self,danshamoz):
-        self.daneshamoz = danshamoz
 
 
-school = maddrese("44")
-print(school.daneshamoz)
 
+class person ():
+    def __init__(self,name , age ,id):
+        self.name = name
+        self.age = age
+        self.id = id
 
-class book ():
-    def __init__(self,page):
-        self.pages = page
-
-newbook= book('800')
-print(newbook.pages)
-print(school.daneshamoz)
-
+new_person = person("milad",25,"25d2ss")
+print(new_person.name)
+print(new_person.age)
 
 
 
