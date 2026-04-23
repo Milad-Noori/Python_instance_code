@@ -623,28 +623,48 @@ l = "milad is a developer"
 # print(list(short_names))
 
 
-class newclass():
-    def __init__(self,param1):
-        self.param1 = param1
-        print('object created')
-    def say_hello(self):
-        print(f"hello")
+# class newclass():
+#     def __init__(self,param1):
+#         self.param1 = param1
+#         print('object created')
+#     def say_hello(self):
+#         print(f"hello")
+#
+#
+#
+# milad = newclass(100)
+# print(milad.param1)
+# print(type(milad))
+
+
+#
+# class book():
+#     def __int__(self,page):
+#         self.pages = page
+#
+# mybook = book(180)
+# mybook.pages
 
 
 
-milad = newclass(100)
-print(milad.param1)
-print(type(milad))
 
 
+class maddrese():
+    def __init__(self,danshamoz):
+        self.daneshamoz = danshamoz
 
 
+school = maddrese("44")
+print(school.daneshamoz)
 
 
+class book ():
+    def __init__(self,page):
+        self.pages = page
 
-
-
-
+newbook= book('800')
+print(newbook.pages)
+print(school.daneshamoz)
 
 
 
