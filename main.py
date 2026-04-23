@@ -617,11 +617,23 @@ l = "milad is a developer"
 
 
 
-name = ['milad','sina','ali','jalal','farhad','mmd']
+# name = ['milad','sina','ali','jalal','farhad','mmd']
+#
+# short_names = filter(lambda x : len(x) <= 3 , name)
+# print(list(short_names))
 
-short_names = filter(lambda x : len(x) <= 3 , name)
-print(list(short_names))
 
+class newclass():
+    def __init__(self,param1):
+        self.param1 = param1
+        print('object created')
+    def say_hello(self):
+        print(f"hello")
+
+
+
+milad = newclass(100)
+print(milad.param1)
 
 
 
