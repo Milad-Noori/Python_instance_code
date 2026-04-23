@@ -669,16 +669,36 @@ l = "milad is a developer"
 
 
 
-class person ():
-    def __init__(self,name , age ,id):
-        self.name = name
-        self.age = age
-        self.id = id
+# class person ():
+#     def __init__(self,name , age ,id):
+#         self.name = name
+#         self.age = age
+#         self.id = id
+#
+# new_person = person("milad",25,"25d2ss")
+# print(new_person.name)
+# print(new_person.age)
 
-new_person = person("milad",25,"25d2ss")
-print(new_person.name)
-print(new_person.age)
 
+
+
+class car():
+    def __init__(self,model , color , value ):
+        self.moodel = model
+        self.color = color
+        self.value = value
+
+        def arrive(self):
+            print(f"the ({model}) with ({color}) is started")
+
+
+car_model_type = car.model = "bmw"
+car_color_type = car.color = "blue"
+car_value_type = car.value = "300"
+print(car_model_type,car_color_type,car_value_type)
+
+bugatti = car.color
+print(bugatti)
 
 
 
