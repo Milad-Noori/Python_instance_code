@@ -682,27 +682,40 @@ l = "milad is a developer"
 
 
 
-class car():
-    def __init__(self,model , color , value ):
-        self.moodel = model
-        self.color = color
-        self.value = value
-
-        def arrive(self):
-            print(f"the ({model}) with ({color}) is started")
-
-
-car_model_type = car.model = "bmw"
-car_color_type = car.color = "blue"
-car_value_type = car.value = "300"
-print(car_model_type,car_color_type,car_value_type)
-
-bugatti = car.color
-print(bugatti)
-
-
+# class car():
+#     def __init__(self,model , color , value ):
+#         self.moodel = model
+#         self.color = color
+#         self.value = value
+#
+#         def arrive(self):
+#             print(f"the ({model}) with ({color}) is started")
+#
+#
+# car_model_type = car.model = "bmw"
+# car_color_type = car.color = "blue"
+# car_value_type = car.value = "300"
+# print(car_model_type,car_color_type,car_value_type)
+#
+# model = car("Benz","gold","400")
+# print(model.color)
 
 
+
+
+class home():
+    def __init__(self,price,meter,room):
+        self.price = price
+        self.meter = meter
+        self.room = room
+
+
+myhome = home.price = 10
+myroom = home.room = 2
+mymeter = home.meter = 100
+
+
+print(myhome,myroom,mymeter)
 
 
 
