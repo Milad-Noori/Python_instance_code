@@ -703,19 +703,31 @@ l = "milad is a developer"
 
 
 
-class home():
-    def __init__(self,price,meter,room):
-        self.price = price
-        self.meter = meter
-        self.room = room
+# class home():
+#     def __init__(self,price,meter,room):
+#         self.price = price
+#         self.meter = meter
+#         self.room = room
+#
+#
+# myhome = home.price = 10
+# myroom = home.room = 2
+# mymeter = home.meter = 100
+#
+#
+# print(myhome,myroom,mymeter)
 
 
-myhome = home.price = 10
-myroom = home.room = 2
-mymeter = home.meter = 100
 
 
-print(myhome,myroom,mymeter)
+def football():
+    player_number = input(int('Entery number:'))
+    player_name = input('Entry the name of player')
+    shoot = 0
+
+    if  player_number < 5 :
+        print(" you are defa")
+
 
 
 
