@@ -719,23 +719,43 @@ l = "milad is a developer"
 
 
 
+#
+# def football():
+#     player_number = input('Entery number:')
+#     player_name = input('Entry the name of player')
+#     shoot = 0
+#
+#     if  player_number < 5 :
+#         print(" you are defa")
+#         shoot += 1
+#     elif player_name > 6 :
+#         print("you are attaker ")
+#     else:
+#         print("Nothing")
+#
+#     return shoot
+#
+# football()
 
-def football():
-    player_number = input('Entery number:')
-    player_name = input('Entry the name of player')
-    shoot = 0
 
-    if  player_number < 5 :
-        print(" you are defa")
-        shoot += 1
-    elif player_name > 6 :
-        print("you are attaker ")
-    else:
-        print("Nothing")
+#########################################################################################
+# _________________________________________oop_____________________________________________
 
-    return shoot
+class robotic():
+    def __init__(self,hand,eye,body,prompt):
+        self.hand = hand
 
-football()
+
+
+
+
+
+
+
+
+
+
+
 
 
 
