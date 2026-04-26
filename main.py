@@ -771,10 +771,17 @@ print(b1.open())
 
 class darsi(book):
     def __init__(self, paye , reshte , name, page):
-        book.__init__(self,name, page )
+        book.__init__(self,name, page  )
         self.paye = paye
         self.reshte = reshte
         print("a new darsi book")
+
+d = darsi("sevom","yajrobi","zist", 120)
+print(type(d))
+print(d.page)
+print(d.name)
+print(d.paye)
+print(d.reshte)
 
 
 
