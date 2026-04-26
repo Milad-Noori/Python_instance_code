@@ -788,16 +788,16 @@
 # print(d.open())
 
 ########################################################################
-
-class basketball():
-    def __init__(self, name , height):
-        self.name = name
-        self.height = height
-    def action(self):
-        print(f" the {self.name} has {self.height}")
-
-basketbal_player = basketball("ali",190)
-basketbal_player.action()
+#
+# class basketball():
+#     def __init__(self, name , height):
+#         self.name = name
+#         self.height = height
+#     def action(self):
+#         print(f" the {self.name} has {self.height}")
+#
+# basketbal_player = basketball("ali",190)
+# basketbal_player.action()
 
 
 
@@ -815,23 +815,34 @@ basketbal_player.action()
 # milad.action()
 
 
+#
+# class runner():
+#     def __init__(self, name , height):
+#         self.name = name
+#         self.height = height
+#     def action(self):
+#         print(f" the {self.name} has {self.height}")
+#
+# runner_player = runner("milad",100)
+# runner_player.action()
+#
+#
+# for person in [runner_player , basketbal_player]:
+#     person.action()
+#
 
-class runner():
-    def __init__(self, name , height):
-        self.name = name
-        self.height = height
-    def action(self):
-        print(f" the {self.name} has {self.height}")
+###############################################################################
 
-runner_player = runner("milad",100)
-runner_player.action()
+class file ():
+    def __init__(self, pdf, svg , png ):
+        self.pdf = pdf
+        self.svg = svg
+        self.png = png
+    def data(self):
+        print(f" type of data is {self.png} or {self.pdf}, or {self.svg}")
 
-
-for person in [runner_player , basketbal_player]:
-    person.action()
-
-
-
+all_type = file("ketab" , "aks","jozve")
+all_type.data()
 
 
 
