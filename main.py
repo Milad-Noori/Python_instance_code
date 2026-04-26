@@ -802,7 +802,29 @@ basketbal_player.action()
 
 
 
+# class runner():
+#     def __int__(self, name , height):
+#         self.name = name
+#         self.height = height
+#
+#     def action(self):
+#         print(f" the {self.name } is {self.height}")
+#
+#
+# milad = runner("milad" , 170)
+# milad.action()
 
+
+
+class runner():
+    def __init__(self, name , height):
+        self.name = name
+        self.height = height
+    def action(self):
+        print(f" the {self.name} has {self.height}")
+
+runner_player = runner("milad",100)
+runner_player.action()
 
 
 
