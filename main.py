@@ -741,23 +741,33 @@ l = "milad is a developer"
 #########################################################################################
 # _________________________________________oop_____________________________________________
 
-class robotic():
-    def __init__(self,hand,eye,body,prompt):
-        self.hand = hand
-        self.eye = eye
-        self.body = body
-        self.prompt = prompt
+# class robotic():
+#     def __init__(self,hand,eye,body,prompt):
+#         self.hand = hand
+#         self.eye = eye
+#         self.body = body
+#         self.prompt = prompt
+#
+#     def move(self):
+#             print(f"when my {self.eye} is open please give me a {self.prompt}. ")
+#
+#
+#
+# b1 = robotic("left","green-eye","move","requist")
+# print(b1.move())
 
-    def move(self):
-            print(f"when my {self.eye} is open please give me a {self.prompt}. ")
+
+class book():
+    def __init__(self,name,page):
+        self.name = name
+        self.page = page
+
+    def open(self):
+        print(f"the book name is {self.name} and {self.page}pages")
 
 
-
-b1 = robotic("left","green-eye","move","requist")
-print(b1.move())
-
-
-
+b1 = book("python-30" ,220 )
+print(b1.open())
 
 
 
