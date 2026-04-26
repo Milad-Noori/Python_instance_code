@@ -827,6 +827,9 @@ runner_player = runner("milad",100)
 runner_player.action()
 
 
+for person in [runner_player , basketbal_player]:
+    person.action()
+
 
 
 
