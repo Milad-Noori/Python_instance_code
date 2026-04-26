@@ -775,14 +775,17 @@ class darsi(book):
         self.paye = paye
         self.reshte = reshte
         print("a new darsi book")
+    def open(self):
+        print(f" open {self.name} , and  page {self.page } in major {self.reshte}")
 
 d = darsi("sevom","yajrobi","zist", 120)
-print(type(d))
-print(d.page)
-print(d.name)
-print(d.paye)
-print(d.reshte)
+# print(type(d))
+# print(d.page)
+# print(d.name)
+# print(d.paye)
+# print(d.reshte)
 
+print(d.open())
 
 
 
