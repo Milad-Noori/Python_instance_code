@@ -748,6 +748,14 @@ class robotic():
         self.body = body
         self.prompt = prompt
 
+    def move(self):
+            print(f"when my {self.eye} is open please give me a {self.prompt}. ")
+
+
+
+b1 = robotic("left","green-eye","move","requist")
+print(b1.move())
+
 
 
 
