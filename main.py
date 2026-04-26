@@ -756,41 +756,48 @@
 # b1 = robotic("left","green-eye","move","requist")
 # print(b1.move())
 
+################################################################################################
+# class book():
+#     def __init__(self,name,page):
+#         self.name = name
+#         self.page = page
+#
+#     def open(self):
+#         print(f"the book name is {self.name} and {self.page}pages")
+#
+#
+# b1 = book("python-30" ,220 )
+# print(b1.open())
+#
+# class darsi(book):
+#     def __init__(self, paye , reshte , name, page):
+#         book.__init__(self,name, page  )
+#         self.paye = paye
+#         self.reshte = reshte
+#         print("a new darsi book")
+#     def open(self):
+#         print(f" open {self.name} , and  page {self.page } in major {self.reshte}")
+#
+# d = darsi("sevom","yajrobi","zist", 120)
+# # print(type(d))
+# # print(d.page)
+# # print(d.name)
+# # print(d.paye)
+# # print(d.reshte)
+#
+# print(d.open())
 
-class book():
-    def __init__(self,name,page):
+########################################################################
+
+class basketball():
+    def __init__(self, name , height):
         self.name = name
-        self.page = page
+        self.height = height
+    def action(self):
+        print(f" the {self.name} has {self.height}")
 
-    def open(self):
-        print(f"the book name is {self.name} and {self.page}pages")
-
-
-b1 = book("python-30" ,220 )
-print(b1.open())
-
-class darsi(book):
-    def __init__(self, paye , reshte , name, page):
-        book.__init__(self,name, page  )
-        self.paye = paye
-        self.reshte = reshte
-        print("a new darsi book")
-    def open(self):
-        print(f" open {self.name} , and  page {self.page } in major {self.reshte}")
-
-d = darsi("sevom","yajrobi","zist", 120)
-# print(type(d))
-# print(d.page)
-# print(d.name)
-# print(d.paye)
-# print(d.reshte)
-
-print(d.open())
-
-
-
-
-
+basketbal_player = basketball("ali",190)
+basketbal_player.action()
 
 
 
