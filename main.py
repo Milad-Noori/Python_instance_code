@@ -173,7 +173,7 @@
 #     print(k)
 
 
-l = "milad is a developer"
+# l = "milad is a developer"
 # print(len(l))
 # for i in range(len(l)):
 #     if len(l) == 20:
@@ -769,6 +769,12 @@ class book():
 b1 = book("python-30" ,220 )
 print(b1.open())
 
+class darsi(book):
+    def __init__(self, paye , reshte , name, page):
+        book.__init__(self,name, page )
+        self.paye = paye
+        self.reshte = reshte
+        print("a new darsi book")
 
 
 
