@@ -744,6 +744,11 @@ l = "milad is a developer"
 class robotic():
     def __init__(self,hand,eye,body,prompt):
         self.hand = hand
+        self.eye = eye
+        self.body = body
+        self.prompt = prompt
+
+
 
 
 
