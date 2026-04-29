@@ -1,3 +1,5 @@
+from setuptools.command.alias import alias
+
 
 # counter = 0
 # mylist= [1,2,3,4,5,6,7,8,9]
@@ -852,7 +854,8 @@ all_type.data()
 # _________________________________ import package _________________________________________
 # pip install package
 # import st from st
-
+import emoji
+print(emoji.emojize("python is : thumbs_up:",language='alias'))
 
 
 
