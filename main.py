@@ -845,9 +845,27 @@ all_type = file("ketab" , "aks","jozve")
 all_type.data()
 
 
-class png( file ):
-    def __init__(self, name ):
-        self.name = name
+# class png( file ):
+#     def __init__(self, name ):
+#         self.name = name
+
+# _________________________________ import package _________________________________________
+# pip install package
+# import st from st
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
