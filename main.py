@@ -835,16 +835,16 @@ from setuptools.command.alias import alias
 
 ###############################################################################
 
-class file ():
-    def __init__(self, pdf, svg , png ):
-        self.pdf = pdf
-        self.svg = svg
-        self.png = png
-    def data(self):
-        print(f" type of data is {self.png} or {self.pdf}, or {self.svg}")
-
-all_type = file("ketab" , "aks","jozve")
-all_type.data()
+# class file ():
+#     def __init__(self, pdf, svg , png ):
+#         self.pdf = pdf
+#         self.svg = svg
+#         self.png = png
+#     def data(self):
+#         print(f" type of data is {self.png} or {self.pdf}, or {self.svg}")
+#
+# all_type = file("ketab" , "aks","jozve")
+# all_type.data()
 
 
 # class png( file ):
@@ -859,13 +859,24 @@ import emoji
 # import emoji
 # print(emoji.emojize('Python is :thumbs_up:'))
 
-from time import sleep
-from tqdm import tqdm
-for tqdm in range(100):
-    sleep(0.1)
+# from time import sleep
+# from tqdm import tqdm
+# for tqdm in range(100):
+#     sleep(0.1)
+#
+# print(tqdm)
 
-print(tqdm)
 
+# ----------------------------------------module---------------------------------------------
+
+def play_video_game ():
+    counter = 0
+    while   counter < 5 :
+        print(f" number of  counter is {counter}")
+        counter += 1
+
+
+print(play_video_game())
 
 
 
