@@ -856,8 +856,15 @@ all_type.data()
 # import st from st
 import emoji
 # print(emoji.emojize("python is : red_heart:",language='alias'))
-import emoji
-print(emoji.emojize('Python is :thumbs_up:'))
+# import emoji
+# print(emoji.emojize('Python is :thumbs_up:'))
+
+from time import sleep
+from tqdm import tqdm
+for tqdm in range(100):
+    sleep(0.1)
+
+print(tqdm)
 
 
 
