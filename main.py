@@ -855,8 +855,9 @@ all_type.data()
 # pip install package
 # import st from st
 import emoji
-print(emoji.emojize("python is : thumbs_up:",language='alias'))
-
+# print(emoji.emojize("python is : red_heart:",language='alias'))
+import emoji
+print(emoji.emojize('Python is :thumbs_up:'))
 
 
 
