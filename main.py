@@ -885,14 +885,24 @@ import emoji
 
 # _______________________________________________ Error Handle _________________________________
 
-try:
-    prit("this is a test")
+# try:
+#     prit("this is a test")
+#
+# except:
+#     print("we have an error.")
 
-except:
-    print("we have an error.")
 
+def deveis (a,b):
+    r = a/b
+    try:
+        r
 
+    except:
 
+        print("we have error")
+    return r
+
+print(deveis(0 , 2))
 
 
 
