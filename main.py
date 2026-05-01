@@ -892,18 +892,26 @@ import emoji
 #     print("we have an error.")
 
 
-def deveis (a,b):
-    r = a/b
-    try:
-        r
+# def deveis (a,b):
+#
+#     try:
+#         return a / b
+#     except exception as e:
+#
+#         print(f"we have error , e = {e}")
+#         return None
+#
+#
+# print(deveis(2 , 2))
+# print(deveis(10,4))
 
-    except:
 
-        print("we have error")
-    return r
-
-print(deveis(0 , 2))
-
+try:
+    f = open("tmp/myfile")
+except FileNotFoundError:
+    print("finding file breakdown")
+except:
+    print("another error")
 
 
 
