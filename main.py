@@ -1,3 +1,5 @@
+from colorlog import exception
+from cryptography.hazmat.asn1.asn1 import sequence
 from setuptools.command.alias import alias
 
 
@@ -879,8 +881,15 @@ import emoji
 # print(play_video_game())
 
 
-from milad import test_module
+# from milad import test_module
 
+# _______________________________________________ Error Handle _________________________________
+
+try:
+    prit("this is a test")
+
+except:
+    print("we have an error.")
 
 
 
