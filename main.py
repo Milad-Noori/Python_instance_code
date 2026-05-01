@@ -2,7 +2,6 @@ from colorlog import exception
 from cryptography.hazmat.asn1.asn1 import sequence
 from setuptools.command.alias import alias
 
-
 # counter = 0
 # mylist= [1,2,3,4,5,6,7,8,9]
 #
@@ -23,7 +22,7 @@ from setuptools.command.alias import alias
 # mylist = [1,2,3,[1,2.3,4],'milad','alo']
 #
 # for i in mylist:
-    # print(mylist[::])
+# print(mylist[::])
 
 #
 # people = (('milad',26),('ali',14),('majid',20))
@@ -49,7 +48,6 @@ from setuptools.command.alias import alias
 # while a <  5:
 #     print(f"a is {a}")
 #     a = a+1
-
 
 
 # b = 0
@@ -82,7 +80,6 @@ from setuptools.command.alias import alias
 #
 #
 # print("your charge is full please put out the charger")
-
 
 
 # for c in [1,2,3,4,5,6,7,8,9]:
@@ -142,8 +139,6 @@ from setuptools.command.alias import alias
 #     print(f"{a} ")
 
 
-
-
 # for i in range (1 ,50):
 #     if i % 5 == 0 :
 #         continue
@@ -154,7 +149,6 @@ from setuptools.command.alias import alias
 #         print("that's True")
 #
 #     print(f"{i}")
-
 
 
 # list = [0,1,0.2,4,0.6]
@@ -234,8 +228,6 @@ from setuptools.command.alias import alias
 #     print('yes')
 
 
-
-
 # javab = randint(1,5)
 # hads = int(input("Enter a number :"))
 # if hads == javab :
@@ -243,7 +235,6 @@ from setuptools.command.alias import alias
 # else:
 #     print(f"Sorry")
 #
-
 
 
 # team = {'hasan':1 , 'milad':2 , 'moslem ':3}
@@ -254,10 +245,6 @@ from setuptools.command.alias import alias
 #     print('milad')
 # elif javab == 3:
 #     print('moslem')
-
-
-
-
 
 
 # def hello():
@@ -274,12 +261,12 @@ from setuptools.command.alias import alias
 #
 # def hello(name):
 #     '''
-#     this item if very famous for our hello system for any option for developers that try to handle some bugs.
+#     this item if very famous for our hello system for any
+#     option for developers that try to handle some bugs.
 #     '''
 #     for i in range(len(name)):
 #         print(f"my name is {"name"}")
 # hello("karim")
-
 
 
 # def avg_of_some(num1 , num2 ):
@@ -287,7 +274,6 @@ from setuptools.command.alias import alias
 #         print(num1 + num2)
 #         print(num1 * num2)
 # avg_of_some(avg_of_some(7 ,6))
-
 
 
 # def star_logo():
@@ -299,7 +285,6 @@ from setuptools.command.alias import alias
 #             j += 1
 #             return i
 # star_logo()
-
 
 
 # def number_saver (num1 , numb2):
@@ -330,10 +315,10 @@ from setuptools.command.alias import alias
 #         if kashef == c :
 #             counter +=1
 #     return counter
-# sentence = "milad is really powerfull , milad is from afghanistan and milad  is a developer "
-# print(f"the {sentence}has {peida_kon("milad is really powerfull , milad is from afghanistan and milad  is a developer " ,"kashef")}" , "a")
-
-
+# sentence = "milad is really powerfull ,
+# milad is from afghanistan and milad  is a developer "
+# print(f"the {sentence}has {peida_kon("milad is really powerfull
+# , milad is from afghanistan and milad  is a developer " ,"kashef")}" , "a")
 
 
 # def calculater():
@@ -413,8 +398,6 @@ from setuptools.command.alias import alias
 # print_time('milad')
 
 
-
-
 # def is_even (n):
 #
 #     this function show us is one number even or odd it's very important to handle this problem
@@ -431,7 +414,6 @@ from setuptools.command.alias import alias
 # print(is_even(5))
 
 
-
 # def is_even (nums):
 #     counter = 0
 #     for n in nums:
@@ -440,7 +422,6 @@ from setuptools.command.alias import alias
 #     return counter
 # count = is_even([2,4,5,6,7,8])
 # print(count)
-
 
 
 # def odd_number_finder(mydata):
@@ -456,7 +437,6 @@ from setuptools.command.alias import alias
 # mydata = [1,5,6,7,8,9,13,12,20]
 # my_list = odd_number_finder(mydata)
 # print(my_list)
-
 
 
 # def kharid_noon(tedad):
@@ -584,7 +564,6 @@ from setuptools.command.alias import alias
 # print(result)
 
 
-
 #
 # def tavan_2 (x):
 #     return x ** 2
@@ -620,7 +599,6 @@ from setuptools.command.alias import alias
 # print(list(filter_ashari))
 
 
-
 # name = ['milad','sina','ali','jalal','farhad','mmd']
 #
 # short_names = filter(lambda x : len(x) <= 3 , name)
@@ -650,8 +628,6 @@ from setuptools.command.alias import alias
 # mybook.pages
 
 
-
-
 #
 # class maddrese():
 #     def __init__(self,danshamoz):
@@ -671,8 +647,6 @@ from setuptools.command.alias import alias
 # print(school.daneshamoz)
 
 
-
-
 # class person ():
 #     def __init__(self,name , age ,id):
 #         self.name = name
@@ -682,8 +656,6 @@ from setuptools.command.alias import alias
 # new_person = person("milad",25,"25d2ss")
 # print(new_person.name)
 # print(new_person.age)
-
-
 
 
 # class car():
@@ -705,8 +677,6 @@ from setuptools.command.alias import alias
 # print(model.color)
 
 
-
-
 # class home():
 #     def __init__(self,price,meter,room):
 #         self.price = price
@@ -720,7 +690,6 @@ from setuptools.command.alias import alias
 #
 #
 # print(myhome,myroom,mymeter)
-
 
 
 #
@@ -804,8 +773,6 @@ from setuptools.command.alias import alias
 # basketbal_player.action()
 
 
-
-
 # class runner():
 #     def __int__(self, name , height):
 #         self.name = name
@@ -857,6 +824,7 @@ from setuptools.command.alias import alias
 # pip install package
 # import st from st
 import emoji
+
 # print(emoji.emojize("python is : red_heart:",language='alias'))
 # import emoji
 # print(emoji.emojize('Python is :thumbs_up:'))
@@ -906,122 +874,22 @@ import emoji
 # print(deveis(10,4))
 
 
-try:
-    f = open("tmp/myfile")
-except FileNotFoundError:
-    print("finding file breakdown")
-except:
-    print("another error")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# try:
+#     f = open("tmp/myfile")
+# except FileNotFoundError:
+#     print("finding file breakdown")
+# except:
+#     print("another error")
+
+
+# ____________________________________________ unit test _____________________________________________________
+
+def count_m(s , c):
+    counter  = 0
+    for char in s:
+        if char == c :
+            counter += 1
+    return counter
 
 
 
