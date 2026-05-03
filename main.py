@@ -912,7 +912,9 @@ class  metro_station():
             counter =+ 1
         return woman,men,counter
 
-new = metro_station()
+new = metro_station('milad' , 'beheshti' ,'sohrevardi')
+print(new.dorbin())
+print()
 
 
 
