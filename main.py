@@ -1,5 +1,6 @@
 from colorlog import exception
 from cryptography.hazmat.asn1.asn1 import sequence
+from scipy.stats import pearsonr
 from setuptools.command.alias import alias
 
 # counter = 0
@@ -899,7 +900,23 @@ class  metro_station():
         self.station = station
         self.destiny = destiny
 
-    def
+    def dorbin (people):
+        counter = 0
+        woman = []
+        men = []
+        for person in range(1,100):
+            if person % 2 == 0:
+                woman.append()
+            else:
+                men.append()
+            counter =+ 1
+        return woman,men,counter
+
+new = metro_station()
+
+
+
+
 
 
 
