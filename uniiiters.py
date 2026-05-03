@@ -6,3 +6,7 @@ class count_test(unittest.TestCase):
         c = "m"
         result = 1
         self.assertEqual(count_m(s,c),result)
+
+
+if __name__ == '__main__':
+    unittest.main()

@@ -882,14 +882,28 @@ import emoji
 #     print("another error")
 
 
-# ____________________________________________ unit test _____________________________________________________
+#____________________________________________ unit test _____________________________________________________
 
-def count_m(s , c):
-    counter  = 0
-    for char in s:
-        if char == c :
-            counter += 1
-    return counter
+# def count_m(s , c):
+#     counter  = 0
+#     for char in s:
+#         if char == c :
+#             counter += 1
+#     return counter
+
+#_______________________________________________________________________________________________________________
+
+class  metro_station():
+    def __init__(self,people,station,destiny):
+        self.people = people
+        self.station = station
+        self.destiny = destiny
+
+    def
+
+
+
+
 
 
 
